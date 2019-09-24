@@ -73,7 +73,7 @@ function doReset() {
 
 	//update visual appearance
 	var images = board.childNodes;
-	for (j in images) {
+	for (var j in images) {
 		//alternative attribute assignment
 		images[j]['src'] = 'images/back.png';
 	}
