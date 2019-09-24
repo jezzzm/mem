@@ -5,7 +5,7 @@ body {
 	
 }
 
-h1, h2, a {
+h1, h2, a, button {
 	font-family: "Raleway", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -59,7 +59,7 @@ nav a {
 }
 
 nav a:hover {
-	border-bottom: 2px solid transparent;
+	border-bottom: 2px solid #FFFFFF;
 }
 
 main {
@@ -104,4 +104,22 @@ footer {
 	color: #F15B31;
 	font-weight: 700;
 
+}
+
+main h1 {
+	color: #F15B31;
+	margin-bottom: 20px;
+}
+
+button {
+	border: none;
+	background: #00A6B3;
+	padding: 10px 20px;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+button:hover {
+	background-color: #007a83;
 }
